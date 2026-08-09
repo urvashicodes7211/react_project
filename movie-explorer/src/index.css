@@ -145,7 +145,8 @@ body{
     background:#FFD700;
     color:black;
     border:none;
-    padding:12px 28px;
+    padding:12px 26px;
+    margin-right: 10px;
     border-radius:8px;
     font-weight:bold;
 }
