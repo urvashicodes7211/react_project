@@ -10,12 +10,12 @@ function Footer() {
           Explore Movies & TV Shows
         </p>
 
-        <div className="footer-links">
+        {/* <div className="footer-links">
           <a href="/">Home</a>
           <a href="/movies">Movies</a>
           <a href="/search">Search</a>
           <a href="/watchlist">Watchlist</a>
-        </div>
+        </div> */}
 
         <hr />
 
