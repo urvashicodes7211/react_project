@@ -52,3 +52,27 @@ body{
     font-weight: bold;
     margin-right: auto;
 }
+.hero{
+    position: relative;
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+    display:flex;
+    align-items:center;
+}
+.hero::before{
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0,0,0,0.45);
+}
+.hero-content{
+    position:relative;
+    z-index:2;
+    width:600px;
+    margin-left:80px;
+    color:white;
+}
+.hero-content a{
+    text-decoration: none;
+}
