@@ -53,12 +53,15 @@ body{
     margin-right: auto;
 }
 .hero{
+
     position: relative;
     height: 600px;
     background-size: cover;
     background-position: center;
     display:flex;
     align-items:center;
+    /* background-image: url("image/poster/taare Zameen par.jpg"); */
+     background-image: url("public/poster/taare Zameen par.jpg");
 }
 .hero::before{
     content: "";
