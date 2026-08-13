@@ -6,7 +6,7 @@ function MovieDetails() {
 
       <div className="poster">
         <img
-          src="/image/poster/taare Zameen par.jpg"
+          src="/public/poster/taare Zameen par.jpg"
           alt="Taare Zameen Par"
         />
       </div>
