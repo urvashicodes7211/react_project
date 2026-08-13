@@ -1,21 +1,31 @@
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
-import Home from "./pages/Home";
 
+import Home from "./pages/Home";
+import Movies from "./pages/movies";
 
 function App() {
   return (
-    <>
+    <BrowserRouter>
+
       <Navbar />
 
-            <main>
-                <Home />
-            </main>
+      <main>
+        <Routes>
 
-            <Footer />
+          <Route path="/" element={<Home />} />
 
-    </>
-  )
+          <Route path="/movies" element={<Movies />} />
+
+        </Routes>
+      </main>
+
+      <Footer />
+
+    </BrowserRouter>
+  );
 }
 
-export default App
+export default App;

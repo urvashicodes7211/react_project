@@ -10,7 +10,7 @@ import {
     nowPlaying,
     popularTVShows,
     topRatedTVShows
-} from "../data/movies";
+} from "../data/Home-movies";
 
 function Home() {
     return (
