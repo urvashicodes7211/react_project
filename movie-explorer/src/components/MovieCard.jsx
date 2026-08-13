@@ -4,11 +4,7 @@ function MovieCard({ movie }) {
             <div className="card h-100">
 
                 <a href={movie.link}>
-                    <img
-                        src={movie.image}
-                        className="card-img-top"
-                        alt={movie.title}
-                    />
+                    <img src={movie.image} className="card-img-top" alt={movie.title}/>
                 </a>
 
                 <div className="card-body">

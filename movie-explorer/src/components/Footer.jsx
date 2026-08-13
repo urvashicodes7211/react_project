@@ -1,4 +1,3 @@
-
 function Footer() {
   return (
     <footer className="footer">
@@ -6,9 +5,7 @@ function Footer() {
 
         <h3>CINEXA</h3>
 
-        <p>
-          Explore Movies & TV Shows
-        </p>
+        <p>Explore Movies & TV Shows</p>
 
         {/* <div className="footer-links">
           <a href="/">Home</a>
@@ -19,9 +16,7 @@ function Footer() {
 
         <hr />
 
-        <p className="copyright">
-          © 2026 CINEXA. All Rights Reserved.
-        </p>
+        <p className="copyright"> © 2026 CINEXA. All Rights Reserved.</p>
 
       </div>
     </footer>
