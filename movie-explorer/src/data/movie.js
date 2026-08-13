@@ -2,22 +2,70 @@ export const popularMovies = [
     {
         id: 1,
         title: "Barbie (2023)",
-        image: "/public/poster/Barbie (2023).jpg"
+        image: "/poster/Barbie (2023).jpg",
+        rating: "6.8",
+        releaseDate: "21 July 2023",
+        runtime: "114 min",
+        genres: "Comedy, Fantasy",
+        language: "English",
+        director: "Greta Gerwig",
+        writer: "Greta Gerwig, Noah Baumbach",
+        production: "Warner Bros. Pictures",
+        budget: "$145 Million",
+        revenue: "$1.446 Billion",
+        overview: "Barbie lives in the perfect world of Barbie Land until she begins experiencing an unexpected existential crisis and travels to the real world.",
+        cast: ["Margot Robbie", "Ryan Gosling", "America Ferrera"]
     },
     {
         id: 2,
         title: "Oppenheimer (2023)",
-        image: "/public/poster/Oppenheimer (2023).jpg"
+        image: "/poster/Oppenheimer (2023).jpg",
+        rating: "8.6",
+        releaseDate: "21 July 2023",
+        runtime: "180 min",
+        genres: "Biography, Drama, History",
+        language: "English",
+        director: "Christopher Nolan",
+        writer: "Christopher Nolan",
+        production: "Universal Pictures",
+        budget: "$100 Million",
+        revenue: "$976 Million",
+        overview: "The story of J. Robert Oppenheimer and his role in developing the atomic bomb during World War II.",
+        cast: ["Cillian Murphy", "Emily Blunt", "Matt Damon"]
     },
     {
         id: 3,
         title: "Dune 2",
-        image: "/public/poster/dune2.jpg"
+        image: "/poster/dune2.jpg",
+        rating: "8.6",
+        releaseDate: "1 March 2024",
+        runtime: "166 min",
+        genres: "Sci-Fi, Adventure, Drama",
+        language: "English",
+        director: "Denis Villeneuve",
+        writer: "Jon Spaihts, Denis Villeneuve",
+        production: "Warner Bros. Pictures",
+        budget: "$190 Million",
+        revenue: "$714 Million",
+        overview: "Paul Atreides joins Chani and the Fremen while seeking revenge against the conspirators who destroyed his family.",
+        cast: ["Timothée Chalamet", "Zendaya", "Rebecca Ferguson"]
     },
     {
         id: 4,
         title: "Inside Out 2 (2024)",
-        image: "/public/poster/Inside Out 2 (2024).jpg"
+        image: "/poster/Inside Out 2 (2024).jpg",
+        rating: "7.6",
+        releaseDate: "14 June 2024",
+        runtime: "96 min",
+        genres: "Animation, Comedy, Family",
+        language: "English",
+        director: "Kelsey Mann",
+        writer: "Meg LeFauve, Dave Holstein",
+        production: "Pixar Animation Studios",
+        budget: "$200 Million",
+        revenue: "$1.69 Billion",
+        overview: "Riley enters her teenage years and experiences new emotions as her mind undergoes major changes.",
+        cast: ["Amy Poehler", "Maya Hawke", "Kensington Tallman"]
     }
 ];
 
@@ -26,22 +74,70 @@ export const topRated = [
     {
         id: 5,
         title: "The Shawshank Redemption",
-        image: "/public/poster/The Shawshank Redemption.jpg"
+        image: "/poster/The Shawshank Redemption.jpg",
+        rating: "9.3",
+        releaseDate: "14 October 1994",
+        runtime: "142 min",
+        genres: "Drama",
+        language: "English",
+        director: "Frank Darabont",
+        writer: "Frank Darabont",
+        production: "Columbia Pictures",
+        budget: "$25 Million",
+        revenue: "$73.3 Million",
+        overview: "A banker sentenced to life in prison forms an unlikely friendship and never gives up hope for freedom.",
+        cast: ["Tim Robbins", "Morgan Freeman", "Bob Gunton"]
     },
     {
         id: 6,
         title: "The Godfather",
-        image: "/public/poster/The Godfather.jpg"
+        image: "/poster/The Godfather.jpg",
+        rating: "9.2",
+        releaseDate: "24 March 1972",
+        runtime: "175 min",
+        genres: "Crime, Drama",
+        language: "English",
+        director: "Francis Ford Coppola",
+        writer: "Mario Puzo, Francis Ford Coppola",
+        production: "Paramount Pictures",
+        budget: "$6 Million",
+        revenue: "$250 Million",
+        overview: "The aging patriarch of an organized crime dynasty transfers control of his empire to his reluctant son.",
+        cast: ["Marlon Brando", "Al Pacino", "James Caan"]
     },
     {
         id: 7,
         title: "The Dark Knight",
-        image: "/public/poster/The Dark Knight.jpg"
+        image: "/poster/The Dark Knight.jpg",
+        rating: "9.0",
+        releaseDate: "18 July 2008",
+        runtime: "152 min",
+        genres: "Action, Crime, Drama",
+        language: "English",
+        director: "Christopher Nolan",
+        writer: "Jonathan Nolan, Christopher Nolan",
+        production: "Warner Bros. Pictures",
+        budget: "$185 Million",
+        revenue: "$1.006 Billion",
+        overview: "Batman faces his greatest challenge when the criminal mastermind Joker brings chaos to Gotham City.",
+        cast: ["Christian Bale", "Heath Ledger", "Aaron Eckhart"]
     },
     {
         id: 8,
         title: "12 Angry Men",
-        image: "/public/poster/12 Angry Men.jpg"
+        image: "/poster/12 Angry Men.jpg",
+        rating: "9.0",
+        releaseDate: "10 April 1957",
+        runtime: "96 min",
+        genres: "Drama",
+        language: "English",
+        director: "Sidney Lumet",
+        writer: "Reginald Rose",
+        production: "United Artists",
+        budget: "$350,000",
+        revenue: "N/A",
+        overview: "A juror tries to convince the others that a murder trial defendant may not be guilty.",
+        cast: ["Henry Fonda", "Lee J. Cobb", "Martin Balsam"]
     }
 ];
 
@@ -50,22 +146,70 @@ export const nowPlaying = [
     {
         id: 9,
         title: "Superman (2025)",
-        image: "/public/poster/Superman (2025).jpg"
+        image: "/poster/Superman (2025).jpg",
+        rating: "7.0",
+        releaseDate: "11 July 2025",
+        runtime: "129 min",
+        genres: "Action, Adventure, Sci-Fi",
+        language: "English",
+        director: "James Gunn",
+        writer: "James Gunn",
+        production: "DC Studios",
+        budget: "$225 Million",
+        revenue: "N/A",
+        overview: "Superman begins his journey to reconcile his Kryptonian heritage with his human upbringing.",
+        cast: ["David Corenswet", "Rachel Brosnahan", "Nicholas Hoult"]
     },
     {
         id: 10,
         title: "The Fantastic Four - First Steps",
-        image: "/public/poster/The Fantastic Four-First Steps.jpg"
+        image: "/poster/The Fantastic Four-First Steps.jpg",
+        rating: "7.3",
+        releaseDate: "25 July 2025",
+        runtime: "115 min",
+        genres: "Action, Adventure, Sci-Fi",
+        language: "English",
+        director: "Matt Shakman",
+        writer: "Josh Friedman, Cameron Squires",
+        production: "Marvel Studios",
+        budget: "$200 Million",
+        revenue: "N/A",
+        overview: "The Fantastic Four face their greatest challenge as they protect their retro-futuristic world from a cosmic threat.",
+        cast: ["Pedro Pascal", "Vanessa Kirby", "Joseph Quinn"]
     },
     {
         id: 11,
         title: "Jurassic World Rebirth",
-        image: "/public/poster/Jurassic World Rebirth.jpg"
+        image: "/poster/Jurassic World Rebirth.jpg",
+        rating: "6.0",
+        releaseDate: "2 July 2025",
+        runtime: "134 min",
+        genres: "Action, Adventure, Sci-Fi",
+        language: "English",
+        director: "Gareth Edwards",
+        writer: "David Koepp",
+        production: "Universal Pictures",
+        budget: "$180 Million",
+        revenue: "N/A",
+        overview: "A team travels to a remote island to obtain genetic material from dinosaurs for a groundbreaking medical discovery.",
+        cast: ["Scarlett Johansson", "Jonathan Bailey", "Mahershala Ali"]
     },
     {
         id: 12,
         title: "The Naked Gun (2025)",
-        image: "/public/poster/The Naked Gun (2025).jpg"
+        image: "/poster/The Naked Gun (2025).jpg",
+        rating: "6.5",
+        releaseDate: "1 August 2025",
+        runtime: "85 min",
+        genres: "Comedy, Crime",
+        language: "English",
+        director: "Akiva Schaffer",
+        writer: "Akiva Schaffer, Dan Gregor",
+        production: "Paramount Pictures",
+        budget: "$42 Million",
+        revenue: "N/A",
+        overview: "A clumsy police officer gets involved in a hilarious investigation to stop a dangerous criminal plot.",
+        cast: ["Liam Neeson", "Pamela Anderson", "Paul Walter Hauser"]
     }
 ];
 
@@ -74,22 +218,70 @@ export const upcoming = [
     {
         id: 13,
         title: "Avatar - Fire and Ash",
-        image: "/public/poster/Avatar- Fire and Ash.jpg"
+        image: "/poster/Avatar- Fire and Ash.jpg",
+        rating: "N/A",
+        releaseDate: "19 December 2025",
+        runtime: "TBA",
+        genres: "Sci-Fi, Adventure, Fantasy",
+        language: "English",
+        director: "James Cameron",
+        writer: "James Cameron, Rick Jaffa",
+        production: "20th Century Studios",
+        budget: "$250+ Million",
+        revenue: "N/A",
+        overview: "The next chapter of the Avatar saga continues the story of the Na'vi and the world of Pandora.",
+        cast: ["Sam Worthington", "Zoe Saldana", "Sigourney Weaver"]
     },
     {
         id: 14,
         title: "Spider-Man - Brand New Day",
-        image: "/public/poster/Spider-Man - Brand New Day.jpg"
+        image: "/poster/Spider-Man - Brand New Day.jpg",
+        rating: "N/A",
+        releaseDate: "31 July 2026",
+        runtime: "TBA",
+        genres: "Action, Adventure, Superhero",
+        language: "English",
+        director: "Destin Daniel Cretton",
+        writer: "TBA",
+        production: "Marvel Studios, Sony Pictures",
+        budget: "TBA",
+        revenue: "N/A",
+        overview: "Peter Parker returns for a new chapter following the events of his previous adventures.",
+        cast: ["Tom Holland", "Zendaya", "Jacob Batalon"]
     },
     {
         id: 15,
         title: "Shrek 5",
-        image: "/public/poster/Shrek 5.jpg"
+        image: "/poster/Shrek 5.jpg",
+        rating: "N/A",
+        releaseDate: "23 December 2026",
+        runtime: "TBA",
+        genres: "Animation, Adventure, Comedy",
+        language: "English",
+        director: "Walt Dohrn",
+        writer: "Michael McCullers",
+        production: "DreamWorks Animation",
+        budget: "TBA",
+        revenue: "N/A",
+        overview: "Shrek returns for another animated adventure with his family and friends in Far Far Away.",
+        cast: ["Mike Myers", "Eddie Murphy", "Cameron Diaz"]
     },
     {
         id: 16,
         title: "The Super Mario Bros. Movie 2",
-        image: "/public/poster/The Super Mario Bros ,Movie 2.jpg"
+        image: "/poster/The Super Mario Bros ,Movie 2.jpg",
+        rating: "N/A",
+        releaseDate: "3 April 2026",
+        runtime: "TBA",
+        genres: "Animation, Adventure, Comedy",
+        language: "English",
+        director: "Aaron Horvath, Michael Jelenic",
+        writer: "TBA",
+        production: "Illumination, Nintendo",
+        budget: "TBA",
+        revenue: "N/A",
+        overview: "Mario and Luigi return for another colorful adventure inspired by the iconic Nintendo video game world.",
+        cast: ["Chris Pratt", "Anya Taylor-Joy", "Charlie Day"]
     }
 ];
 
@@ -98,22 +290,70 @@ export const actionMovies = [
     {
         id: 17,
         title: "John Wick - Chapter 4",
-        image: "/public/poster/John Wick - Chapter 4.jpg"
+        image: "/poster/John Wick - Chapter 4.jpg",
+        rating: "7.6",
+        releaseDate: "24 March 2023",
+        runtime: "169 min",
+        genres: "Action, Crime, Thriller",
+        language: "English",
+        director: "Chad Stahelski",
+        writer: "Shay Hatten, Michael Finch",
+        production: "Lionsgate",
+        budget: "$100 Million",
+        revenue: "$447 Million",
+        overview: "John Wick discovers a way to defeat the High Table while facing dangerous enemies around the world.",
+        cast: ["Keanu Reeves", "Donnie Yen", "Bill Skarsgård"]
     },
     {
         id: 18,
         title: "Mad Max - Fury Road",
-        image: "/public/poster/Mad Max - Fury Road.jpg"
+        image: "/poster/Mad Max - Fury Road.jpg",
+        rating: "8.1",
+        releaseDate: "15 May 2015",
+        runtime: "120 min",
+        genres: "Action, Adventure, Sci-Fi",
+        language: "English",
+        director: "George Miller",
+        writer: "George Miller, Brendan McCarthy",
+        production: "Warner Bros.",
+        budget: "$150 Million",
+        revenue: "$380 Million",
+        overview: "In a ruined world, Max joins Furiosa and a group of rebels escaping from a tyrannical ruler.",
+        cast: ["Tom Hardy", "Charlize Theron", "Nicholas Hoult"]
     },
     {
         id: 19,
         title: "Mission Impossible - Dead Reckoning",
-        image: "/public/poster/Mission -Impossible – Dead Reckoning.jpg"
+        image: "/poster/Mission -Impossible – Dead Reckoning.jpg",
+        rating: "7.6",
+        releaseDate: "12 July 2023",
+        runtime: "163 min",
+        genres: "Action, Adventure, Thriller",
+        language: "English",
+        director: "Christopher McQuarrie",
+        writer: "Christopher McQuarrie, Erik Jendresen",
+        production: "Paramount Pictures",
+        budget: "$290 Million",
+        revenue: "$567 Million",
+        overview: "Ethan Hunt and his team race to stop a powerful artificial intelligence weapon from falling into the wrong hands.",
+        cast: ["Tom Cruise", "Hayley Atwell", "Ving Rhames"]
     },
     {
         id: 20,
         title: "Extraction 2",
-        image: "/public/poster/Extraction 2.jpg"
+        image: "/poster/Extraction 2.jpg",
+        rating: "7.0",
+        releaseDate: "16 June 2023",
+        runtime: "122 min",
+        genres: "Action, Thriller",
+        language: "English",
+        director: "Sam Hargrave",
+        writer: "Joe Russo",
+        production: "AGBO",
+        budget: "$65 Million",
+        revenue: "N/A",
+        overview: "Tyler Rake returns for another dangerous extraction mission involving a ruthless criminal family.",
+        cast: ["Chris Hemsworth", "Golshifteh Farahani", "Adam Bessa"]
     }
 ];
 
@@ -122,22 +362,70 @@ export const comedyMovies = [
     {
         id: 21,
         title: "Free Guy",
-        image: "/public/poster/Free Guy.jpg"
+        image: "/poster/Free Guy.jpg",
+        rating: "7.1",
+        releaseDate: "13 August 2021",
+        runtime: "115 min",
+        genres: "Action, Comedy, Sci-Fi",
+        language: "English",
+        director: "Shawn Levy",
+        writer: "Matt Lieberman, Zak Penn",
+        production: "20th Century Studios",
+        budget: "$125 Million",
+        revenue: "$331 Million",
+        overview: "A bank teller discovers that he is actually a background character in an open-world video game.",
+        cast: ["Ryan Reynolds", "Jodie Comer", "Taika Waititi"]
     },
     {
         id: 22,
         title: "The Hangover",
-        image: "/public/poster/The Hangover.jpg"
+        image: "/poster/The Hangover.jpg",
+        rating: "7.7",
+        releaseDate: "5 June 2009",
+        runtime: "100 min",
+        genres: "Comedy",
+        language: "English",
+        director: "Todd Phillips",
+        writer: "Jon Lucas, Scott Moore",
+        production: "Warner Bros.",
+        budget: "$35 Million",
+        revenue: "$469 Million",
+        overview: "Three friends wake up after a wild bachelor party in Las Vegas and try to find their missing friend.",
+        cast: ["Bradley Cooper", "Ed Helms", "Zach Galifianakis"]
     },
     {
         id: 23,
         title: "Deadpool",
-        image: "/public/poster/Deadpool.jpg"
+        image: "/poster/Deadpool.jpg",
+        rating: "8.0",
+        releaseDate: "12 February 2016",
+        runtime: "108 min",
+        genres: "Action, Comedy, Superhero",
+        language: "English",
+        director: "Tim Miller",
+        writer: "Rhett Reese, Paul Wernick",
+        production: "20th Century Fox",
+        budget: "$58 Million",
+        revenue: "$782 Million",
+        overview: "A wisecracking mercenary gains accelerated healing powers and becomes the unconventional superhero Deadpool.",
+        cast: ["Ryan Reynolds", "Morena Baccarin", "T. J. Miller"]
     },
     {
         id: 24,
         title: "Jumanji - Welcome to the Jungle",
-        image: "/public/poster/Jumanji - Welcome to the Jungle.jpg"
+        image: "/poster/Jumanji - Welcome to the Jungle.jpg",
+        rating: "6.9",
+        releaseDate: "20 December 2017",
+        runtime: "119 min",
+        genres: "Action, Adventure, Comedy",
+        language: "English",
+        director: "Jake Kasdan",
+        writer: "Chris McKenna, Erik Sommers",
+        production: "Columbia Pictures",
+        budget: "$90 Million",
+        revenue: "$962 Million",
+        overview: "Four teenagers become trapped inside a video game and must complete an adventure to return home.",
+        cast: ["Dwayne Johnson", "Kevin Hart", "Jack Black"]
     }
 ];
 
@@ -146,22 +434,70 @@ export const romanceMovies = [
     {
         id: 25,
         title: "Titanic",
-        image: "/public/poster/Titanic.jpg"
+        image: "/poster/Titanic.jpg",
+        rating: "7.9",
+        releaseDate: "19 December 1997",
+        runtime: "194 min",
+        genres: "Drama, Romance",
+        language: "English",
+        director: "James Cameron",
+        writer: "James Cameron",
+        production: "20th Century Fox",
+        budget: "$200 Million",
+        revenue: "$2.26 Billion",
+        overview: "A young aristocratic woman falls in love with a poor artist aboard the ill-fated RMS Titanic.",
+        cast: ["Leonardo DiCaprio", "Kate Winslet", "Billy Zane"]
     },
     {
         id: 26,
         title: "La La Land",
-        image: "/public/poster/La La Land.jpg"
+        image: "/poster/La La Land.jpg",
+        rating: "8.0",
+        releaseDate: "9 December 2016",
+        runtime: "128 min",
+        genres: "Comedy, Drama, Romance",
+        language: "English",
+        director: "Damien Chazelle",
+        writer: "Damien Chazelle",
+        production: "Summit Entertainment",
+        budget: "$30 Million",
+        revenue: "$472 Million",
+        overview: "A jazz musician and an aspiring actress fall in love while pursuing their dreams in Los Angeles.",
+        cast: ["Ryan Gosling", "Emma Stone", "John Legend"]
     },
     {
         id: 27,
         title: "The Notebook",
-        image: "/public/poster/The Notebook.jpg"
+        image: "/poster/The Notebook.jpg",
+        rating: "7.8",
+        releaseDate: "25 June 2004",
+        runtime: "123 min",
+        genres: "Drama, Romance",
+        language: "English",
+        director: "Nick Cassavetes",
+        writer: "Jeremy Leven",
+        production: "New Line Cinema",
+        budget: "$29 Million",
+        revenue: "$118 Million",
+        overview: "An elderly man reads a romantic story to a woman in a nursing home about two young lovers separated by circumstances.",
+        cast: ["Ryan Gosling", "Rachel McAdams", "James Garner"]
     },
     {
         id: 28,
         title: "Me Before You",
-        image: "/public/poster/Me Before You.jpg"
+        image: "/poster/Me Before You.jpg",
+        rating: "7.4",
+        releaseDate: "3 June 2016",
+        runtime: "110 min",
+        genres: "Drama, Romance",
+        language: "English",
+        director: "Thea Sharrock",
+        writer: "Jojo Moyes, Scott Neustadter",
+        production: "New Line Cinema",
+        budget: "$20 Million",
+        revenue: "$208 Million",
+        overview: "A young woman becomes a caregiver for a wealthy man who is paralyzed and their relationship changes both of their lives.",
+        cast: ["Emilia Clarke", "Sam Claflin", "Janet McTeer"]
     }
 ];
 
@@ -170,21 +506,69 @@ export const horrorMovies = [
     {
         id: 29,
         title: "The Conjuring",
-        image: "/public/poster/The Conjuring.jpg"
+        image: "/poster/The Conjuring.jpg",
+        rating: "7.5",
+        releaseDate: "19 July 2013",
+        runtime: "112 min",
+        genres: "Horror, Mystery, Thriller",
+        language: "English",
+        director: "James Wan",
+        writer: "Chad Hayes, Carey W. Hayes",
+        production: "New Line Cinema",
+        budget: "$20 Million",
+        revenue: "$320 Million",
+        overview: "Paranormal investigators help a family who are experiencing terrifying supernatural events in their farmhouse.",
+        cast: ["Vera Farmiga", "Patrick Wilson", "Lili Taylor"]
     },
     {
         id: 30,
         title: "IT",
-        image: "/public/poster/IT.jpg"
+        image: "/poster/IT.jpg",
+        rating: "7.3",
+        releaseDate: "8 September 2017",
+        runtime: "135 min",
+        genres: "Horror, Drama, Thriller",
+        language: "English",
+        director: "Andy Muschietti",
+        writer: "Chase Palmer, Cary Fukunaga",
+        production: "New Line Cinema",
+        budget: "$35 Million",
+        revenue: "$701 Million",
+        overview: "A group of children confront a terrifying shape-shifting creature that appears as Pennywise the clown.",
+        cast: ["Bill Skarsgård", "Jaeden Martell", "Finn Wolfhard"]
     },
     {
         id: 31,
         title: "Smile 2",
-        image: "/public/poster/Smile 2.jpg"
+        image: "/poster/Smile 2.jpg",
+        rating: "6.7",
+        releaseDate: "18 October 2024",
+        runtime: "127 min",
+        genres: "Horror, Mystery, Thriller",
+        language: "English",
+        director: "Parker Finn",
+        writer: "Parker Finn",
+        production: "Paramount Pictures",
+        budget: "$28 Million",
+        revenue: "$139 Million",
+        overview: "A pop star begins experiencing terrifying supernatural events while preparing for a major world tour.",
+        cast: ["Naomi Scott", "Rosemarie DeWitt", "Dylan Gelula"]
     },
     {
         id: 32,
         title: "A Quiet Place",
-        image: "/public/poster/A Quiet Place.jpg"
+        image: "/poster/A Quiet Place.jpg",
+        rating: "7.5",
+        releaseDate: "6 April 2018",
+        runtime: "90 min",
+        genres: "Horror, Drama, Sci-Fi",
+        language: "English",
+        director: "John Krasinski",
+        writer: "Bryan Woods, Scott Beck, John Krasinski",
+        production: "Paramount Pictures",
+        budget: "$17 Million",
+        revenue: "$340 Million",
+        overview: "A family must live in silence to survive creatures that hunt anything that makes a sound.",
+        cast: ["Emily Blunt", "John Krasinski", "Millicent Simmonds"]
     }
 ];

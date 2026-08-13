@@ -1,63 +1,132 @@
 import "./info.css";
+import { useParams } from "react-router-dom";
+
+import {
+    popularMovies,
+    topRated,
+    nowPlaying,
+    upcoming,
+    actionMovies,
+    comedyMovies,
+    romanceMovies,
+    horrorMovies
+} from "../data/movie";
+
 
 function MovieDetails() {
-  return (
-    <div className="container">
 
-      <div className="poster">
-        <img
-          src="/public/poster/taare Zameen par.jpg"
-          alt="Taare Zameen Par"
-        />
-      </div>
+    const { id } = useParams();
 
-      <div className="details">
+    // બધા movies ને એક array માં લાવીએ
+    const allMovies = [
+        ...popularMovies,
+        ...topRated,
+        ...nowPlaying,
+        ...upcoming,
+        ...actionMovies,
+        ...comedyMovies,
+        ...romanceMovies,
+        ...horrorMovies
+    ];
 
-        <h1>Taare Zameen Par</h1>
+    // URL માંથી આવેલ id પ્રમાણે movie શોધવી
+    const movie = allMovies.find((m) => m.id === Number(id));
 
-        <div className="rating">
-          ⭐ 8.3 / 10
+    // જો movie ના મળે
+    if (!movie) {
+        return <h1>Movie Not Found</h1>;
+    }
+
+    return (
+        <div className="container">
+
+            <div className="poster">
+                <img
+                    src={movie.image}
+                    alt={movie.title}
+                />
+            </div>
+
+            <div className="details">
+
+                <h1>{movie.title}</h1>
+
+                <div className="rating">
+                    ⭐ {movie.rating} / 10
+                </div>
+
+                <div className="info">
+
+                    <p>
+                        <strong>Release Date:</strong>{" "}
+                        {movie.releaseDate}
+                    </p>
+
+                    <p>
+                        <strong>Runtime:</strong>{" "}
+                        {movie.runtime}
+                    </p>
+
+                    <p>
+                        <strong>Genres:</strong>{" "}
+                        {movie.genres}
+                    </p>
+
+                    <p>
+                        <strong>Language:</strong>{" "}
+                        {movie.language}
+                    </p>
+
+                    <p>
+                        <strong>Director:</strong>{" "}
+                        {movie.director}
+                    </p>
+
+                    <p>
+                        <strong>Writer:</strong>{" "}
+                        {movie.writer}
+                    </p>
+
+                    <p>
+                        <strong>Production:</strong>{" "}
+                        {movie.production}
+                    </p>
+
+                    <p>
+                        <strong>Budget:</strong>{" "}
+                        {movie.budget}
+                    </p>
+
+                    <p>
+                        <strong>Revenue:</strong>{" "}
+                        {movie.revenue}
+                    </p>
+
+                </div>
+
+                <h2>Overview</h2>
+
+                <p className="overview">
+                    {movie.overview}
+                </p>
+
+                <h2>Cast</h2>
+
+                <ul>
+                    {movie.cast.map((actor, index) => (
+                        <li key={index}>{actor}</li>
+                    ))}
+                </ul>
+
+                <div className="buttons">
+                    <button>▶ Watch Trailer</button>
+                    <button>❤ Add Watchlist</button>
+                </div>
+
+            </div>
+
         </div>
-
-        <div className="info">
-          <p><strong>Release Date:</strong> 21 December 2007</p>
-          <p><strong>Runtime:</strong> 165 min</p>
-          <p><strong>Genres:</strong> Drama, Family</p>
-          <p><strong>Language:</strong> Hindi</p>
-          <p><strong>Director:</strong> Aamir Khan</p>
-          <p><strong>Writer:</strong> Amole Gupte</p>
-          <p><strong>Production:</strong> Aamir Khan Productions</p>
-          <p><strong>Budget:</strong> ₹12 Crore</p>
-          <p><strong>Revenue:</strong> ₹98+ Crore</p>
-        </div>
-
-        <h2>Overview</h2>
-
-        <p className="overview">
-          Eight-year-old Ishaan struggles with dyslexia and is misunderstood
-          by everyone around him. A compassionate art teacher discovers his
-          hidden talent and helps him regain confidence.
-        </p>
-
-        <h2>Cast</h2>
-
-        <ul>
-          <li>Aamir Khan</li>
-          <li>Darsheel Safary</li>
-          <li>Tisca Chopra</li>
-          <li>Vipin Sharma</li>
-          <li>Tanay Chheda</li>
-        </ul>
-
-        <div className="buttons">
-          <button>▶ Watch Trailer</button>
-          <button>❤ Add Watchlist</button>
-        </div>
-
-      </div>
-
-    </div>
-  );
+    );
 }
 
 export default MovieDetails;
