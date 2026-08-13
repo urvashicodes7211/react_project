@@ -1,6 +1,5 @@
 import MovieHero from "../components/Hero";
 import MovieSection from "../components/MovieSection";
-import Footer from "../components/Footer";
 
 import {
     popularMovies,
@@ -58,8 +57,6 @@ function Movies() {
                 title="😱 Horror"
                 movies={horrorMovies}
             />
-
-            <Footer />
 
         </>
     );
