@@ -13,9 +13,17 @@ import {
 } from "../data/Home-movies";
 
 function Home() {
+    const homeHeroMovie = {
+        id: 1,
+        title: "TAARE ZAMEEN PAR",
+        image: "/poster/taare Zameen par.jpg",
+        description:
+            "An 8-year-old boy with dyslexia discovers his true potential after an inspiring art teacher changes the way he sees the world.",
+        rating: "8.3"
+    };
     return (
         <>
-            <Hero />
+            <Hero movie={homeHeroMovie} />
 
             <MovieSection
                 title="🔥 Top 10 Today"

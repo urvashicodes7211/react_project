@@ -1,4 +1,4 @@
-import MovieHero from "../components/Hero";
+import Hero from "../components/Hero";
 import MovieSection from "../components/MovieSection";
 
 import {
@@ -13,10 +13,18 @@ import {
 } from "../data/movie";
 
 function Movies() {
+    const movieHero = {
+        id: 3,
+        title: "3 IDIOTS",
+        image: "/poster/3 idiots.jpg",
+        description:
+            "Three friends navigate college life, friendship, dreams, and the pressure to succeed while discovering the true meaning of life.",
+        rating: "8.4"
+    };
     return (
         <>
 
-            <MovieHero />
+            <Hero movie={movieHero} />
 
             <MovieSection
                 title="🔥 Popular"

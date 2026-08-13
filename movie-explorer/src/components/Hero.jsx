@@ -1,22 +1,29 @@
-function Hero() {
+function Hero({ movie }) {
     return (
-        <div className="hero">
+        <div
+            className="hero"
+            style={{
+                backgroundImage: `url("${movie.image}")`
+            }}
+        >
             <div className="hero-content">
-                <h1>TAARE ZAMEEN PAR</h1>
-                <p>
-                    An 8-year-old boy with dyslexia discovers his
-                    true potential after an inspiring art teacher
-                    changes the way he sees the world.
-                </p>
-                <p>⭐⭐⭐⭐⭐ 8.3</p>
-                <button className="hero-btn">▶ Watch Now</button>
+                <h1>{movie.title}</h1>
 
-                <a href="/taare-zameen-par" className="hero-btn">
+                <p>{movie.description}</p>
+
+                <p>⭐⭐⭐⭐⭐ {movie.rating}</p>
+
+                <button className="hero-btn">
+                    ▶ Watch Now
+                </button>
+
+                <a
+                    href={`/movie/${movie.id}`}
+                    className="hero-btn"
+                >
                     More Info
                 </a>
-
             </div>
-
         </div>
     );
 }
