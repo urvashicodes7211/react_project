@@ -17,7 +17,6 @@ function MovieDetails() {
 
     const { id } = useParams();
 
-    // બધા movies ને એક array માં લાવીએ
     const allMovies = [
         ...popularMovies,
         ...topRated,
@@ -29,10 +28,8 @@ function MovieDetails() {
         ...horrorMovies
     ];
 
-    // URL માંથી આવેલ id પ્રમાણે movie શોધવી
     const movie = allMovies.find((m) => m.id === Number(id));
 
-    // જો movie ના મળે
     if (!movie) {
         return <h1>Movie Not Found</h1>;
     }
